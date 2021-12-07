@@ -19,9 +19,7 @@ colormods = Dict(
 edgelist = [
     ("CitableLibrary", "CitableBase")
 ]
-
 gr = SimpleDiGraph(length(pkglist) )
-
 for (src, target) in edgelist
     @info("Looking at ", src, target)
 	srcidx = findfirst(r -> r == src, pkglist)
