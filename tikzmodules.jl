@@ -78,21 +78,24 @@ colormods = Dict(
 # The package graph:
 edgelist = [
     ("CitableLibrary", "CitableBase"),
-
+    ("CiteEXchange", "CitableBase"),
 	("CitableObject", "CitableBase"),
 	("CitableText", "CitableBase"),
 
-    ("CiteEXchange", "CitableObject"),
-
+    ("CitableCorpus", "CitableBase"),
 	("CitableCorpus", "CitableText"),
     ("CitableCorpus", "CiteEXchange"),
 
+    ("CitableImage","CitableBase"),
+	("CitableImage","CitableObject"),
+
+
+    ("CitablePhysicalText", "CitableBase"),
 	("CitablePhysicalText", "CitableText"),
 	("CitablePhysicalText", "CitableObject"),
 	("CitablePhysicalText", "CitableImage"),
     ("CitablePhysicalText", "CiteEXchange"),
 
-	("CitableImage","CitableObject"),
 
     ("CitableCollection", "CitableBase"),
     ("CitableCollection", "CitableObject"),
