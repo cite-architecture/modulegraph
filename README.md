@@ -1,14 +1,14 @@
-# modulegraph
+# Visualizing CITE in Julia
 
-> Visualize types representing key concepts of the CITE architecture and Julia packages related to the CITE architecture as graphs.
+> Generate graph visualizations of Julia types representing key concepts of the CITE architecture and Julia packages related to the CITE architecture.
 
 
 ## Generate PDFs
 
-Requires Julia 1.7.  Set `project` parameter to point to this directory.
+Requires Julia 1.7.  Set `project` parameter to point to the root directory of this repository.
 
 
-Generate graph of CITE concepts and color key:
+Generate graph of Julia types for key CITE concepts and color key:
 
 ```
 julia --project=. cite.jl
@@ -25,7 +25,7 @@ julia --project=. modulescolorkey.jl
 
 ## Output (converted to PNG format)
 
-Images on this page are embedded to full-size PNGs.
+Images on this page are linked to full-size PNGs.
 
 ### Julia types for CITE concepts
 
