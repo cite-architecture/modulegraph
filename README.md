@@ -2,8 +2,26 @@
 
 > Visualize key concepts of the CITE architecture and Julia packages related to the CITE architecture as graphs.
 
-Requires Julia 1.7.
 
+## Generate PDFs
+
+Requires Julia 1.7.  Set `project` parameter to point to this directory.
+
+
+Generate graph of CITE concepts and color key:
+
+```
+julia --project=. cite.jl
+julia --project=. citecolorkey.jl
+```
+
+
+Generate graph of Julia modules and color key:
+
+```
+julia --project=. modules.jl
+julia --project=. modulescolorkey.jl
+```
 
 ## CITE concepts
 
