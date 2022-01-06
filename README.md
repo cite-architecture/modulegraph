@@ -1,6 +1,6 @@
 # Visualizing CITE in Julia
 
-> Generate graph visualizations of Julia types representing key concepts of the CITE architecture and Julia packages related to the CITE architecture.
+> Generate graph visualizations of Julia types representing key concepts of the CITE architecture, and of Julia packages related to the CITE architecture.
 
 Images on this page are linked to full-size PNGs.
 
