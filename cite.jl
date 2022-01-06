@@ -12,10 +12,12 @@ nodelist = [
     "CatalogedText",
     "DSECollection",
 
-    # 6-8: citable collections
+    # 6: object AND collection
+    "CitableDocument",
+
+    # 7-8: citable collections
     "TextCatalog",
     "CitableTextCorpus",
-    "CitableDocument",
 
     # 9: library
     "CiteLibrary"
@@ -24,26 +26,26 @@ nodelist = [
 # Map index in `pkglist` to color setting for Tikz
 colormods = Dict(
     # Identifiers:
-    1=>"fill=green!10",
-    2=>"fill=green!10",
+    1=>"fill=red!30",
+    2=>"fill=red!30",
   
 
     # 3-5: Objects:
-    3 =>"fill=cyan!10",
-    4 =>"fill=cyan!10",
-    5 =>"fill=cyan!10",
+    3 =>"fill=orange!15",
+    4 =>"fill=orange!15",
+    5 =>"fill=orange!15",
     
 
+    # 6: Object AND Collections:
+    6 =>"fill=yellow!10",
 
-    # 6-8: Collections:
-    6 =>"fill=orange!15",
-    7 =>"fill=orange!15",
-    8 =>"fill=orange!15",
-    
+    # 7-8: Collections:
+    7 =>"fill=green!10",
+    8 =>"fill=green!10",
+   
 
-
-    # 10: library
-    9=>"fill=yellow",
+    # 9: library
+    9=>"fill=cyan!20",
 )
 
 
