@@ -5,11 +5,11 @@ using TikzPictures
 
 # Ordered list of packages to use together with colormods dictionary:
 pkglist = [
-    # 1-2: abstractions
+    # 1: abstractions
     "CitableBase", 
-    "CitableLibrary",
 
-    # 3-9: CITE
+
+    # 2-9: CITE
     "CiteEXchange",
 	"CitableObject", 
     "CitableImage",
@@ -19,6 +19,8 @@ pkglist = [
 	"CitablePhysicalText",
 
     "CitableCollection",
+
+    "CitableLibrary",
 	
     # 10-12: MID abstractions
     "Orthography",
@@ -48,7 +50,7 @@ pkglist = [
 colormods = Dict(
     # Abstractions:
     1=>"fill=yellow",
-    2=>"fill=yellow",
+  
 
     # MID modules:
     10=>"fill=green!10",
