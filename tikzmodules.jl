@@ -1,9 +1,7 @@
-using LightGraphs
 using TikzGraphs
+using Graphs
 using TikzPictures
 
-
-# Ordered list of packages to use together with colormods dictionary:
 pkglist = [
     # 1: abstractions
     "CitableBase", 
@@ -173,4 +171,5 @@ for (src, target) in edgelist
 end
 
 modulesgraph = TikzGraphs.plot(gr, pkglist, node_style="draw, rounded corners, fill=blue!20", node_styles=colormods)
+
 TikzPictures.save(PDF("modules-tikz"),modulesgraph)
