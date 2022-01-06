@@ -80,4 +80,4 @@ end
 
 entitygraph = TikzGraphs.plot(gr, nodelist, node_style="draw, rounded corners, fill=blue!20", node_styles=colormods)
 
-TikzPictures.save(PDF("CITE-concepts"),entitygraph)
+TikzPictures.save(PDF("concepts"),entitygraph)

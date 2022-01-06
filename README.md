@@ -4,9 +4,11 @@
 
 Images on this page are linked to full-size PNGs.
 
+Directed edges indicate dependency.  For types, the dependency is conceptual; for packages, the dependency is a literal code dependency specified in `Project.toml`.
+
 ## Julia types for CITE concepts
 
-[![CITE concepts](graphs/cite-concepts.png)](graphs/cite-concepts.png)
+[![CITE concepts](graphs/concepts.png)](graphs/cite-concepts.png)
 
 > color key:
 >
@@ -14,6 +16,7 @@ Images on this page are linked to full-size PNGs.
 
 
 ## Julia packages
+
 
 
 [![Julia packages](graphs/packages.png)](graphs/packages.png)
@@ -31,14 +34,14 @@ Requires Julia 1.7.  Set `project` parameter to point to the root directory of t
 Generate graph of Julia types for key CITE concepts and color key:
 
 ```
-julia --project=. cite.jl
-julia --project=. citecolorkey.jl
+julia --project=. concepts.jl
+julia --project=. concepts-colorkey.jl
 ```
 
 
 Generate graph of Julia modules and color key:
 
 ```
-julia --project=. modules.jl
-julia --project=. modulescolorkey.jl
+julia --project=. packages.jl
+julia --project=. packages-colorkey.jl
 ```

@@ -22,4 +22,4 @@ grouplabels = [
 
 tikzkey = TikzGraphs.plot(colorkeygr,grouplabels, node_style="draw, rounded corners, fill=blue!20", node_styles=colorkeydict) 
 
-TikzPictures.save(PDF("cite-colorkey"),tikzkey)
+TikzPictures.save(PDF("concepts-colorkey"),tikzkey)
