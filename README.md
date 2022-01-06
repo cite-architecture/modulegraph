@@ -27,9 +27,9 @@ julia --project=. modulescolorkey.jl
 
 [![CITE concepts](graphs/cite-concepts.png)](graphs/cite-concepts.png)
 
-color key:
-
-[![concepts: color key](graphs/concepts-colorkey.png)](graphs/concepts-colorkey.png)
+> color key:
+>
+> [![concepts: color key](graphs/concepts-colorkey.png)](graphs/concepts-colorkey.png)
 
 
 ## Julia packages
@@ -37,7 +37,7 @@ color key:
 
 [![Julia packages](graphs/packages.png)](graphs/packages.png)
 
-color key:
-
-[![packages: color key](graphs/packages-colorkey.png)](graphs/packages-colorkey)
+> color key:
+>
+> [![packages: color key](graphs/packages-colorkey.png)](graphs/packages-colorkey)
 
