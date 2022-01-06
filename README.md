@@ -23,7 +23,11 @@ julia --project=. modules.jl
 julia --project=. modulescolorkey.jl
 ```
 
-## CITE concepts
+## Output (converted to PNG format)
+
+Images on this page are embedded to full-size PNGs.
+
+### CITE concepts
 
 [![CITE concepts](graphs/cite-concepts.png)](graphs/cite-concepts.png)
 
@@ -32,7 +36,7 @@ julia --project=. modulescolorkey.jl
 > [![concepts: color key](graphs/concepts-colorkey.png)](graphs/concepts-colorkey.png)
 
 
-## Julia packages
+### Julia packages
 
 
 [![Julia packages](graphs/packages.png)](graphs/packages.png)
