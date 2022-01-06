@@ -4,7 +4,7 @@
 
 Images on this page are linked to full-size PNGs.
 
-Directed edges indicate dependency.  For types, the dependency is conceptual; for packages, the dependency is a literal code dependency specified in `Project.toml`.
+Directed edges indicate dependency.  For *types*, the dependency is conceptual; for *packages*, the dependency is a literal code dependency specified in `Project.toml`.
 
 ## Julia types for CITE concepts
 
