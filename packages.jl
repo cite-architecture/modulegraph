@@ -101,6 +101,7 @@ edgelist = [
 
     ("CitableCollection", "CitableBase"),
     ("CitableCollection", "CitableObject"),
+    ("CitableCollection", "CitableText"),
     ("CitableCollection", "CiteEXchange"),
 
 
